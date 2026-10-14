@@ -1,0 +1,14 @@
+<h2>Données de l'utilisateur</h2>
+
+@if (user(); as u) {
+  <table>
+    <tr><th>Prénom</th><td>{{ u.firstName }}</td></tr>
+    <tr><th>Nom de famille</th><td>{{ u.lastName }}</td></tr>
+    <tr><th>Numéro de téléphone</th><td>{{ u.phone }}</td></tr>
+    <tr><th>Email</th><td>{{ u.email }}</td></tr>
+  </table>
+} @else {
+  <p>Aucune donnée soumise.</p>
+}
+
+<a routerLink="/form">Retour au formulaire</a>
