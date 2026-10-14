@@ -1,0 +1,19 @@
+.field {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input {
+  width: 300px;
+  padding: 6px;
+}
+
+.error {
+  color: #c00;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
